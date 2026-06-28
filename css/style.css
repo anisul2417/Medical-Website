@@ -3,13 +3,27 @@
 #banner .carousel-item .overlay .caro-text h1 {
     font-size: 30px !important;
     line-height: 40px !important;
-}
+    }
 .nav-search{
         margin: 20px 0;
     }
 
-    .appointment-btn{
+.appointment-btn{
         margin-top: 15px;
+    }
+#doctor .gallary-col{
+        flex: 0 0 50% !important;
+        max-width: 50% !important;
+        padding: 10px;
+    }
+
+#doctor .doc-img .img-bg{
+        width: 100%;
+        margin: 0;
+    }
+
+#doctor .doc-img .img-bg img{
+        width: 100%;
     }
 #footer h2 {
     color: #222;
@@ -19,7 +33,7 @@
     padding-top: 20px;
     text-align: left;
     line-height: 34px;
-}
+    }
 
 }
 /* small device */
@@ -27,8 +41,23 @@
 #banner .carousel-item .overlay .caro-text h1 {
     font-size: 25px !important;
     line-height: 30px !important;
-}
-#footer h2 {
+    }
+#doctor .gallary-col{
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+        padding: 10px;
+    }
+
+#doctor .doc-img .img-bg{
+        width: 100%;
+        margin: 0;
+    }
+
+#doctor .doc-img .img-bg img{
+        width: 100%;
+    }
+
+    #footer h2 {
     color: #222;
     font-family: "Exo", sans-serif;
     font-size: 20px;
@@ -36,12 +65,13 @@
     padding-top: 20px;
     text-align: left;
     line-height: 34px;
-}
+    }
 #footer .social-icon {
     padding: 20px;
     color: #8a2061;
     text-align: left;
-}
+    }
+
 }
 
 @font-face {
@@ -396,7 +426,7 @@ body {
 #doctor .gallary-col {
     width: 24%;
     padding: 10px 0;
-    margin: 6px;
+    margin: 8px;
     transition: all linear 0.4s;
     -webkit-transition: all linear 0.4s;
     -moz-transition: all linear 0.4s;
