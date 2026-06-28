@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shastho Care</title>
+    
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="./Img/Shastho-Care.png" type="image/l-icon">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+
+    <!-- topbar start -->
+    <section id="topbar" class=" bg-white">
+        <div class="container top-back">
+            <div class="row top-text">
+                <div class="col-md-6 text-center text-md-start">
+                    <div class="head-1 d-flex gap-4 justify-content-center justify-content-md-start">
+                        <div class="top-1">
+                            <a href="#"><i class="fa-solid fa-phone me-2"></i> <span class="phone-number"> 01712345678</span></a>
+                        </div>
+                        <div class="top-2">
+                            <a href="#"><i class="fa-regular fa-envelope me-2"></i> shasthocareorg@gmail.com</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 top-dro text-center text-md-end mt-2 mt-md-0">
+                    <div class="head-2 d-flex gap-4 justify-content-center justify-content-md-end">
+                        <div class="top-4">
+                            <ul>
+                                <li>
+                                    <a href="#"><i class="fa-solid fa-power-off me-2"></i> Account
+                                    </a>
+                                    <ul>
+                                        <li>
+                                            <a href="#sasthoSignup" data-bs-toggle="modal"><i class="fa-regular fa-circle-user"></i>Signup</a>
+                                            <a href="#modalLogIn" data-bs-toggle="modal"><i class="fa-regular fa-circle-user"></i>Login</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- topbar end -->
+
+    <!-- menubar start -->
+   
+    <nav class="navbar navbar-expand-lg sticky-top bg-white shadow-sm">
+        <div class="container">
+            <!-- Logo -->
+            <a class="navbar-brand" href="#">
+                <img class="logo" src="./Img/Shastho Care.png" alt="Shastho Care">
+            </a>
+
+            <!-- Mobile Toggle -->
+            <button class="navbar-toggler" type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Menu -->
+            <div class="collapse navbar-collapse menu" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="ourdoctor.html">Our Doctors</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="community.html">Community</a>
+                    </li>
+                </ul>
+                <div class="nav-search">
+                    <a href="#">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="appointment-btn">
+                    <a href="#appointmentModal" data-bs-toggle="modal">
+                        Book Appointment
+                        <span class="arrow">
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- menubar end -->
+
+    <!-- content start -->
+    <section id="community">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="comm-heading sec-head">
+                        <div class="comm-text mt-5">
+                            <h1 class="mb-4 text-md-start">Meet Our Founder & Chair of the Board</h1>
+                            <p>Six years ago, my mother was hospitalized at one of Bangladesh’s top hospitals for a basic operation. We expected that the routine procedure would go smoothly, yet she suffered such dramatic complications that we nearly lost her. The most harrowing part of the experience was the doctor’s cavalier attitude. On my mother’s worst day, my sister and I desperately needed to understand why our mother was vomiting bile, but the doctor ignored our queries and walked out of the room. I distinctly remember chasing him up two flights of stairs to demand answers to our simple questions. His indifference to our mother’s suffering made us feel completely helpless. Eventually, our family had no choice but to take my mother to Bangkok, where she had a second surgery. A year later, she had to have a third surgery, all because of complications arising from the original operation.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="comm-heading sec-head">
+                        <div class="comm-part">
+                            <div class="comm-banner">
+                                <img src="./Img/Sylvana_Quader_Si.jpg" class="mt-4" alt="">
+                            </div>
+                            <div class="com-top">
+                                <div class="com-tx">
+                                    <p class="p-4">Like most Bangladeshis, I could share dozens of other shocking incidents like this one, experienced by my own family in private health facilities. I am an American by birth and Bangladeshi by blood. I studied international law and international development at top universities in the United States. My passion for development and impact was inspired by my visits to Bangladesh growing up and led me to a rewarding career in New York City and beyond. For the past 15 years, I have worked to ensure human rights and justice for individuals all over the world, through the private and public sectors, at international law firms and global organizations. After my mother’s experience, I spent a great deal of time thinking about the tremendous need to revolutionize the health sector in Bangladesh. I wanted to be part of that revolution. So, I moved to Bangladesh to found Shasthocare.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="com-text mt-4">
+                        <p class="p-4">Proper healthcare is our basic human right. Every patient deserves to be treated with care and respect. My own experience, and yours, compelled me to imagine health centers in Bangladesh where professionalism, expertise, and trust between physician and patient are not luxuries of the lucky few, but rights and realities for every citizen.
+                        The Praava team is building a health system where patients come first – an outpatient network of health centers with family doctors as well as quality, reliable diagnostics. Because 80-90% of all health care needs can be addressed by a family doctor, Praava’s family doctors’ unit will be the first point of entry for our patients. Praava Health will feature a group practice of family physicians, including a gynecologist and a pediatrician, as well as a nutritionist and a physical therapist. To accommodate patients who may need to see specialists, Praava will have a floor of visiting specialists within our health center.
+                        Proper care depends on accurate diagnosis. The diagnostics services we will offer in-house will include basic and advanced pathology, including Bangladesh’s first molecular cancer diagnostics lab in certain cancers like breast, cervical, and colon cancer; and basic and advanced imaging, including X-ray, ultra-sonogram, DXA (bone marrow density), CT, and MRI scans. Praava will maintain international standards for these facilities and plans to obtain international accreditation.
+                        There is a fundamental power imbalance between the doctor – who has the medical knowledge to understand what is happening in the body – and the patient – who is suffering, but may not understand why. It is the responsibility of the doctor to alleviate that inequality by providing compassionate care. Every patient should be treated with dignity and feel confident that their health concerns will be taken seriously and addressed appropriately.
+                        Consistently, we hear patients complain that the biggest problem with health care in Bangladesh is a lack of trust. In fact, patients actually feel better when their doctors spend time getting to know them. “Patient-centered care” actually improves patients’ clinical outcomes and satisfaction by enhancing the quality of the doctor-patient relationship, while at the same time decreasing overall health care costs and wastefulness of diagnostic testing, prescriptions, hospitalizations, and referrals. Patient-centered care is a holistic approach to health care. It goes beyond educating patients about their diagnosis and potential treatments by involving them in key decisions about their health, taking into account their personal circumstances and preferences. Patient-centered care requires open communication and consideration of patients’ cultural traditions, personal preferences and values, family situations, social circumstances, and lifestyles. It demands every doctor get to know every patient personally.
+                        It is this notion of patient-centered care that Praava is bringing to Bangladesh. We aim to be your partner in health. There are many medical professionals in Bangladesh who share these values, and we are actively bringing some of them onto our team to help achieve our vision. (Please email us if you’d like to join us!)
+                        When I cut the ribbon for our first Praava facility, I will be thinking of that day when I ran up two flights of stairs to ask a doctor a simple question. And I will be looking forward to a whole new kind of care for my family, and for yours – high quality, affordable services and diagnostics that bring trust, reliability, and accountability to our healthcare system.
+                        Welcome to a new concept of healthcare in Bangladesh. I hope to see you soon at Praava’s first health center, launching in Dhaka in 2017.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- content  end -->
+
+    <!-- footer start -->
+    <section id="footer">
+        <div class="container ftr">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="logo">
+                        <img src="./Img/Shastho Care.png" alt="Shastho Care.png" class="d-block">
+                    </div>
+                    <h2>Keep up with Shasthocare</h2>
+                    <div class="form">
+                        <div class="email">
+                            <input type="text" class="form-control form-ct" id="email" placeholder="Email Address">
+                        </div>
+                        <div class="box">
+                            <button type="submit" class="btn btn-color">Subscribe</button>
+                        </div>
+                    </div>
+                    <h2>Get in touch</h2>
+                    <div class="social-icon">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                   <div class="ftr-data">
+                        <h2 class="mb-5">Services</h2>
+                        <a href="#" class="mb-5">Tests & Procedures</a> <br>
+                        <a href="#" class="mb-5">Health Checks & Packages</a> <br>
+                        <a href="#" class="mb-5">Membership Plans</a>
+                   </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="ftr-data">
+                        <h2 class="mb-5">Resources</h2>
+                        <a href="#" class="mb-5">Our Doctors</a> <br>
+                        <a href="#" class="mb-5">FAQ</a>
+                   </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer-bottom -->
+    <section id="footer-bottom">
+        <div class="container">
+            <div class="row">
+            <div class="col-md-6">
+                <div class="ftr-btm">
+                    <a href="#">Tests & Procedures</a>
+                    <a href="#">Health Checks & Packages</a>
+                    <a href="#">Membership Plans</a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="ftr-te">
+                    <p>© 2022-2026 Shastho Care Bangladesh Limited.</p>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- footer end -->
+
+    <!-- modal start -->
+    <!-- signup -->
+    <div class="modal fade" id="sasthoSignup">
+        <div class="container-fluid">
+                <div class="modal-dialog custom-modal">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Sign Up</h5>
+                            <button type="button" class="btn-close"  data-bs-dismiss="modal">
+                                <span></span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="container-fluid"></div>
+                                <div class="row">
+                                <!-- Image -->
+                                <div class="col-md-6">
+                                    <div class="modal-img">
+                                        <img src="./Img/miroshnichenko.jpg" alt="Doctor" class="img-fluid w-100">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <form>
+                                        <div class="row">
+                                            <div class="col-12 mb-3">
+                                                <label for="firstname" class="form-label">Name</label>
+                                                <input type="text" class="form-control" id="firstname" placeholder="Full Name">
+                                            </div>
+                                            <div class="col-md-6 mb-3">
+                                                <label for="email" class="form-label">Email</label>
+                                                <input type="email" class="form-control" id="email" placeholder="Enter Email">
+                                            </div>
+                                            <div class="col-md-6 mb-3">
+                                                <label for="phone" class="form-label">Phone</label>
+                                                <input type="text" class="form-control" id="phone" placeholder="Phone Number">
+                                            </div>
+                                            <div class="col-md-6 mb-3">
+                                                <label for="gender" class="form-label">Gender</label>
+                                                <select class="form-select" id="gender" >
+                                                    <option>Male</option>
+                                                    <option>Female</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-md-6 mb-3">
+                                                <label for="dob" class="form-label">Date of Birth</label>
+                                                <input type="date" class="form-control" id="dob">
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                                Close
+                            </button>
+                            <button type="submit" class="btn btn-primary">
+                                Sign Up
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- signin -->
+        <div class="modal fade" id="modalLogIn">
+            <div class="container-fluid">
+                <div class="modal-dialog custom-modal">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Login</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal">
+                                <span></span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <form action="">
+                                <div class="row">
+                                    <div class="col-md-6 mb-3">
+                                        <div class="modal-img">
+                                            <img src="./Img/Dr._Jotishko.jpg" alt="Doctor" class="img-fluid mb-3 mt-4 w-100">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <div class="modal-imgs">
+                                            <img src="./Img/Shastho-Care.png" alt="Doctor" class="img-fluid w-30 mb-5">
+                                        </div>
+                                        <h2 class="mb-5">Login</h2>
+                                        <label for="continue" class="mb-3">Continue with phone number</label>
+                                        <input type="text" class="form-control mb-4" id="email" placeholder="Type phone number">
+                                        <button type="submit" class="w-100">Login</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Close</button>
+                            <button type="submit" class="btn btn-primary">Login</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <!-- Appointment Modal -->
+    <div class="modal fade appointment-modal" id="appointmentModal">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Book Appointment</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label class="form-label">Full Name</label>
+                            <input type="text" class="form-control" placeholder="Enter your name">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Age</label>
+                            <input type="number" class="form-control" placeholder="Enter your age" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="gender" class="form-label">Gender</label>
+                            <select class="form-select" id="gender" required>
+                                <option value="" selected disabled>Gender</option>
+                                <option>Male</option>
+                                <option>Female</option>
+                                <option>Other</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Serial No</label>
+                            <input type="text" class="form-control" placeholder="Enter serial number">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Appointment Date</label>
+                            <input type="date" class="form-control">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Appointment Time</label>
+                            <input type="time" class="form-control">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Message</label>
+                            <textarea class="form-control" rows="4" placeholder="Write your message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100"> Submit Appointment</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- modal end -->
+
+    
+    <script src="./js/jquery-4.0.0.min.js"></script>
+    <script src="./js/bootstrap.bundle.js"></script>
+</body>
+</html>
