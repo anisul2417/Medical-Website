@@ -1,78 +1,4 @@
-/* medium device */
-@media only screen and (min-width: 576px) and (max-width: 991px) {
-#banner .carousel-item .overlay .caro-text h1 {
-    font-size: 30px !important;
-    line-height: 40px !important;
-    }
-.nav-search{
-        margin: 20px 0;
-    }
 
-.appointment-btn{
-        margin-top: 15px;
-    }
-#doctor .gallary-col{
-        flex: 0 0 50% !important;
-        max-width: 50% !important;
-        padding: 10px;
-    }
-
-#doctor .doc-img .img-bg{
-        width: 100%;
-        margin: 0;
-    }
-
-#doctor .doc-img .img-bg img{
-        width: 100%;
-    }
-#footer h2 {
-    color: #222;
-    font-family: "Exo", sans-serif;
-    font-size: 20px;
-    font-weight: bold;
-    padding-top: 20px;
-    text-align: left;
-    line-height: 34px;
-    }
-
-}
-/* small device */
-@media only screen and (min-width: 200px) and (max-width: 575px) {
-#banner .carousel-item .overlay .caro-text h1 {
-    font-size: 25px !important;
-    line-height: 30px !important;
-    }
-#doctor .gallary-col{
-        flex: 0 0 100% !important;
-        max-width: 100% !important;
-        padding: 10px;
-    }
-
-#doctor .doc-img .img-bg{
-        width: 100%;
-        margin: 0;
-    }
-
-#doctor .doc-img .img-bg img{
-        width: 100%;
-    }
-
-    #footer h2 {
-    color: #222;
-    font-family: "Exo", sans-serif;
-    font-size: 20px;
-    font-weight: bold;
-    padding-top: 20px;
-    text-align: left;
-    line-height: 34px;
-    }
-#footer .social-icon {
-    padding: 20px;
-    color: #8a2061;
-    text-align: left;
-    }
-
-}
 
 @font-face {
     font-family: "Exo", sans-serif;
@@ -97,7 +23,7 @@ ul,li,ol {
 h1,h2,h3,h4,h5,h6 {
     font-family: "Exo", sans-serif;
     font-weight: bold;
-    line-height: 30px;
+    line-height: 40px;
     text-align: center;
 
 }
@@ -358,7 +284,8 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 800px;
+    min-height: 800px;
+    height: auto;
     width: 100%;
 }
 #services::after {
@@ -408,7 +335,8 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 800px;
+    min-height: 800px;
+    height: auto;
     width: 100%;
 }
 #doctors::after {
@@ -794,3 +722,194 @@ body {
   font-weight: <weight>;
   font-style: normal;
 } */
+
+
+
+/* medium device */
+@media only screen and (min-width: 576px) and (max-width: 991px) {
+#banner .carousel-item .overlay .caro-text h1 {
+    font-size: 30px !important;
+    line-height: 40px !important;
+    }
+.nav-search{
+        margin: 20px 0;
+    }
+
+.appointment-btn{
+        margin-top: 15px;
+    }
+
+#about{
+        margin-bottom: 0;
+        padding: 60px 0;
+    }
+
+#about .about-heading .abt-af{
+        position: static;
+        height: auto;
+    }
+
+#about .about-heading .abt-af .abt-tp{
+        position: static;
+        width: 100%;
+        height: auto;
+        padding: 30px;
+    }
+
+#about .abt-cont{
+        position: static;
+        margin-top: 40px;
+    }
+
+#about .abt-cont .slider{
+        width:100%;
+    }
+
+#about .abt-cont .slider2{
+        position: static;
+        width:100%;
+        margin-top:30px;
+    }
+
+#about .abt-cont .slider2 .abt-dsg{
+        width:90%;
+        margin:30px auto;
+        transform:none;
+    }
+
+
+    /* ================= COMMUNITY ================= */
+
+#community .comm-part{
+        position: static;
+    }
+
+#community .comm-part .com-top{
+        position: static;
+        width:100%;
+        margin-top:30px;
+        left:auto;
+        top:auto;
+    }
+
+#doctor .gallary-col{
+        flex: 0 0 50% !important;
+        max-width: 50% !important;
+        padding: 10px;
+    }
+
+#doctor .doc-img .img-bg{
+        width: 100%;
+        margin: 0;
+    }
+
+#doctor .doc-img .img-bg img{
+        width: 100%;
+    }
+#footer h2 {
+    color: #222;
+    font-family: "Exo", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 20px;
+    text-align: left;
+    }
+
+}
+/* small device */
+@media only screen and (min-width: 200px) and (max-width: 575px) {
+#banner .carousel-item .overlay .caro-text h1 {
+    font-size: 25px !important;
+    line-height: 30px !important;
+    }
+
+#about{
+        margin-bottom:0;
+        padding:40px 0;
+    }
+
+#about .about-heading .abt-af{
+        position:static;
+        height:auto;
+    }
+
+#about .about-heading .abt-af .abt-tp{
+        position:static;
+        width:100%;
+        height:auto;
+        padding:20px;
+    }
+
+#about .about-heading .abt-af .abt-tp h1,
+#about .about-heading .abt-af .abt-tp p{
+        margin:0;
+        text-align:center;
+    }
+
+#about .abt-cont{
+        position:static;
+        margin-top:30px;
+    }
+
+#about .abt-cont .slider{
+        width:100%;
+    }
+
+#about .abt-cont .slider2{
+        position:static;
+        width:100%;
+        margin-top:20px;
+    }
+
+#about .abt-cont .slider2 .abt-dsg{
+        width:90%;
+        margin:20px auto;
+        transform:none;
+    }
+
+
+    /* ================= COMMUNITY ================= */
+
+#community .comm-part{
+        position:static;
+    }
+
+#community .comm-part .com-top{
+        position:static;
+        width:100%;
+        margin-top:20px;
+        left:auto;
+        top:auto;
+    }
+
+
+#doctor .gallary-col{
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+        padding: 10px;
+    }
+
+#doctor .doc-img .img-bg{
+        width: 100%;
+        margin: 0;
+    }
+
+#doctor .doc-img .img-bg img{
+        width: 100%;
+    }
+
+    #footer h2 {
+    color: #222;
+    font-family: "Exo", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 20px;
+    text-align: left;
+    }
+#footer .social-icon {
+    padding: 20px;
+    color: #8a2061;
+    text-align: left;
+    }
+
+}
